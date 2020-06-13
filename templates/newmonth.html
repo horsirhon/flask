@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html{
+            display: flex;
+            height:100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #center {
+            width: 100rem;
+            height:18em;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-family: serif;
+        }
+    </style>
+    <title>{{name}}</title>
+</head>
+<body id="center">
+    {% if newmonth %}
+        <h1 style="font-size: 5em;">Yes, Happy new month</h1>
+    {% else %}
+        <h1 style="font-size: 7em;">No</h1>
+    {% endif %}
+    <p>Check out:  <a href="{{ url_for('osahon')}}">Osahon page</a></p>
+</body>
+</html>

@@ -1,0 +1,17 @@
+html{
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#center {
+    width: 100rem;
+    height:18em;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 7em;
+    font-family: serif;
+}
